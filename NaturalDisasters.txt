@@ -1,0 +1,101 @@
+Eastern United States heatwave,heatwave,1901
+Eruption of Mount Pelee,volcano,1902
+Kangra Earthquake,earthquake,1905
+Hong Kong Typhoon,typhoon,1906
+Messina Earthquake,earthquake,1908
+Borujerd Earthquake,earthquake,1909
+France heat wave,heatwave,1911
+China Typhoon,typhoon,1912
+Yunnan earthquake,earthquake,1913
+Burdur Earthquake,earthquake,1914
+Avezzano earthquake,earthquake,1915
+Guatemala Earthquakes,earthquake,1917
+Haiyuan Earthquake,earthquake,1920
+Shantou typhoon,typhoon,1922
+The Great Kanto Earthquake,earthquake,1923
+Gulang earthquake,earthquake,1927
+Yangtze River Floods,flood,1931
+Cuba hurricane,hurricane,1932
+Diexi earthquake,earthquake,1933
+Nepal–India earthquake,earthquake,1934
+Quetta earthquake,earthquake,1935
+North American heat wave,heatwave,1936
+Great Hong Kong typhoon,typhoon,1937
+Erzincan earthquake,earthquake,1939
+West Bengal cyclone,cyclone,1942
+San Juan earthquake,earthquake,1944
+Ashgabat earthquake,earthquake,1948
+Eastern Guatemalan floods,flood,1949
+North Seaflood,flood,1953
+Yangtze Floods,flood,1953
+Fairbanks Floods in Alaska,flood,1967
+Paradip Cyclone in India,cyclone,1967
+Cyclone Bhola,cyclone,1970
+Hurricane Fifi–Orlene,hurricane,1974
+Typhoon Nina,typhoon,1975
+Typhoon Nina flood,flood,1975
+Tangshan Earthquake,earthquake,1976
+The 1977 Andhra Pradesh cyclone,cyclone,1977
+Tabas Earthquake,earthquake,1978
+Hurricane David,hurricane,1979
+El Asnam Earthquake,earthquake,1980
+Golbaf Earthquake,earthquake,1981
+North Yemen earthquake,earthquake,1982 
+Bangladesh cyclone,cyclone,1985
+Chernobyl disaster,explosion,1986
+Ecuador Earthquakes,earthquake,1987 
+Armenian Earthquake,earthquake,1988
+Sichuan Flood,flood,1989
+The Exxon Valdez oil spill in Alaska,oil spill, 1989
+Manjil–Rudbar Earthquake,earthquake,1990
+Bangladesh cyclone (Marian or Gorky),cyclone,1991
+Hurricane Andrew,hurricane,1992
+Latur earthquake,earthquake,1993
+Typhoon Fred,typhoon,1994
+Great Hanshin (Kobe) earthquake,earthquake,1995
+The 1996 Andhra Pradesh cyclone,cyclone,1996 
+Hurricane Mitch,hurricane,1998
+İzmit Earthquake,earthquake,1999
+Mozambique Flood,flood,2000
+Gujarat Earthquake,earthquake,2001
+The 2002 Indian heat wave,heatwave,2002
+European Heatwaves 2003,heatwave,2003
+Indian Ocean earthquake and tsunami,earthquake,2004
+Indian Ocean tsunami and earthquake,tsunami,2004
+Hurricane Katrina,hurricane,2005
+Kashmir earthquake,earthquake,2005
+Yogyakarta earthquake,earthquake,2006
+Cyclone Sidr,cyclone,2007
+Cyclone Nargis,cyclone,2008
+Hurricane Ike,hurricane,2008
+Sumatra earthquakes,earthquake,2009
+Haiti Earthquake 2010,earthquake,2010
+Chile Earthquake,earthquake,2010
+Russia Heatwave,heatwave,2010
+Deepwater Horizon oil spill,oil spill,2010
+Tohoku earthquake and tsunami,earthquake,2011
+Tohoku tsunami and earthquake,tsunami,2011
+Hurricane Sandy,hurricane,2012
+Typhoon Bopha,typhoon,2012
+Typhoon Haiyan,typhoon,2013
+Nepal Earthquake,earthquake,2015
+The 2016 Indian heat wave,heatwave,2016
+Hurricane Irma,hurricane,2017
+Hurricane Maria,hurricane,2017
+Hurricane Harvey,hurricane,2017
+Cyclone Idai,cyclone,2019
+European Heatwaves 2019,heatwave,2019
+South Asian Floods,flood,2020
+Haiti Earthquake 2021,earthquake,2021
+European Heatwaves 2022,heatwave,2022
+Pakistan Floods,flood,2022
+Earthquake in Afghanistan,earthquake,2022
+Turkey–Syria earthquakes,earthquake,2023
+Libya Floods,flood,2023
+Morroco Earthquake,earthquake,2023
+Iceland volcano Eyjafjallajokull,volcano,2010
+Reykjanes Volcano,volcano,2024
+Marapi Indonesia,volcano,2024
+Shishalden Erruption in United States,volcano,2024
+Flooding in Mongolia,flood,2024
+Flooding in Brazil,flood,2024
