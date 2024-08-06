@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 #Pre-set empty dictionaries
 Types = {}
 Years = {}
+type_count = {}
+year_count = {}
 
 #reads file
 file = open("NaturalDisasters.txt", 'r')
@@ -10,53 +12,45 @@ for line in file.readlines():
     #splitting the line into a list 
     line = line.strip('\n')
     line = line.split(",")
+    types = line[1]
+    years = line[2]
     #inputting into the dictionaries
-    Types[line[0]] = line[1]
-    Years[line[0]] = line[2]
-file.close()
-
-#dictionary for option 3, 4 and 8
-dict_1 = {}
-
-#formula to make dict_1 display the {Type: count}
-for w in Types.values():
-    if w in dict_1:
-        dict_1[w] += 1
+    Types[line[0]] = types
+    Years[line[0]] = years
+    #formula to make type_count display the {Type: count}
+    if types in type_count:
+        type_count[types] += 1
     else:
-        dict_1[w] = 1
-
-#dictionary for option 7
-dict_2 = {}
-#loop to make dict_2 display the {Year: count}
-for i in Years.values():
-    if i in dict_2:
-        dict_2[i] += 1
+        type_count[types] = 1
+    #loop to make year_count display the {Year: count}
+    if years in year_count:
+        year_count[years] += 1
     else: 
-        dict_2[i] = 1
-
+        year_count[years] = 1
+file.close()
 
 #pre-set format
 x_1 = "{:5s} {:3d} disasters reported"
 x_2 = "{:11s} {:20d} disasters reported"
 
 #Loops for option 9 and 10
-sorted_values = sorted(dict_1.values(), reverse = True)
+sorted_values = sorted(type_count.values(), reverse = True)
 
 #pre-set empty keys with the same length as the total number (so that indexing would work)
-keys = [""]*len(dict_1)
-values = [""]*len(dict_1)
+keys = [""]*len(type_count)
+values = [""]*len(type_count)
 
 #loop to put sorted values and corresponding keys at the same index
-for a in dict_1.keys():
-    index = sorted_values.index(dict_1[a])
+for a in type_count.keys():
+    index = sorted_values.index(type_count[a])
     #In case of repeated counts: resets the spot to zero so the other same values' index would not be affected
     sorted_values[index] = 0
     keys[index] = a
-    values[index] = dict_1[a]
+    values[index] = type_count[a]
                 
 Menu = """
 Program Menu:
-1-How many records are there in the data file? Diusplay all complete records in tabular format.
+1-How many records are there in the data file? Display all complete records in tabular format.
 2-How many different types of natural disasters are reported? Print a numbered list of all types.
 3-What type of Natural Disaster has been reported the most and how many times?
 4-What type of Natural Disaster has been reported the least and how many times?
@@ -107,10 +101,10 @@ while option != 11:
     elif option == 3:
         #pre-set value
         max = 0
-        #loop to determine the largest value in dict_1 and what key it belongs to
-        for v in dict_1.keys():
-            if dict_1[v] > max:
-                max = dict_1[v]
+        #loop to determine the largest value in type_count and what key it belongs to
+        for v in type_count.keys():
+            if type_count[v] > max:
+                max = type_count[v]
                 max_type = v
         print("The most reported natural disaster type is", max_type)
         print("It is repeated", max, "many times")
@@ -119,10 +113,10 @@ while option != 11:
     elif option == 4:
         #pre-set value
         min = len(Types)
-        #loop to determine the smallest value in dict_1 and what key it belongs to
-        for v in dict_1.keys():
-            if dict_1[v] < min:
-                min = dict_1[v]
+        #loop to determine the smallest value in type_count and what key it belongs to
+        for v in type_count.keys():
+            if type_count[v] < min:
+                min = type_count[v]
                 min_type = v
         print("The least reported natural disaster type is", min_type)
         print("It is repeated", min, "many times")
@@ -158,15 +152,15 @@ while option != 11:
     # option 7 code
     elif option == 7:
         #to display the years where disaster occured 2 or more times
-        for i in dict_2.keys():
-            if dict_2[i] >= 2:
-                print(x_1.format(i+':',dict_2[i]))
+        for i in year_count.keys():
+            if year_count[i] >= 2:
+                print(x_1.format(i+':',year_count[i]))
     # option 8 code
     elif option == 8:
         #displaying the types with 3 or more times reported
-        for i in dict_1.keys():
-            if dict_1[i] >= 3:
-                print(x_2.format(i+':',dict_1[i]))
+        for i in type_count.keys():
+            if type_count[i] >= 3:
+                print(x_2.format(i+':',type_count[i]))
     # option 9 code
     elif option == 9:  
         #pre-set format
